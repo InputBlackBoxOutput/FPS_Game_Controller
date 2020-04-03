@@ -1,0 +1,28 @@
+Pin connections
+These can be modified as per preference in Game_controller.ino 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Buttons                Arduino Pro Micro         
+
+Trigger Button                 10
+Stock Button                   16
+Magzine Button                  7
+
+Select Button 1                15
+Select Button 2                14    
+//Select buttons behave as a MUX select lines
+
+Function Button 1               5
+Function Button 2               6
+Function Button 3               8
+Function Button 4               9
+//Function buttons change their functions depending on state of select buttons 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+MPU6050               Arduino Pro Micro
+SDA                             2
+SCL                             3
+VCC                           VCC
+GND                           GND
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
